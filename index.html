@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1 id="question"></h1>
+
+    <div class="gallery">
+        <img src="images/photo1.jpg" alt="Us Together">
+        <img src="images/photo2.jpg" alt="Cute Selfie">
+        <img src="images/photo3.jpg" alt="Best Moment">
+    </div>
+
+    <div class="button-container">
+        <button class="yes-button" onclick="showLove()">YES, I WILL! ❤️</button>
+        <button class="no-button" onmouseover="moveNoButton()">NO 😢</button>
+    </div>
+
+    <audio id="bg-music" autoplay loop>
+        <source src="music/love_song.mp3" type="audio/mp3">
+    </audio>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
